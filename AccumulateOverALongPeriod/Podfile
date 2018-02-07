@@ -1,0 +1,18 @@
+
+platform :ios,'8.0'
+
+target 'AccumulateOverALongPeriod' do
+ 
+pod 'ReactiveObjC', '= 3.0.0'  # RAC  现在这样去导入哈
+pod 'AFNetworking', '= 3.1.0'
+pod 'SDWebImage', '= 4.2.2'
+pod 'Masonry', '= 1.1.0'
+pod 'YYKit', '= 1.0.9'
+pod 'MJRefresh', '= 3.1.15.1'
+pod 'MJExtension', '= 3.0.13'
+
+
+#   Debug模式下使用的一些辅助库,只在开发Target上面使用
+pod 'Reveal-SDK', '= 4', :configurations => ['Debug']
+
+end

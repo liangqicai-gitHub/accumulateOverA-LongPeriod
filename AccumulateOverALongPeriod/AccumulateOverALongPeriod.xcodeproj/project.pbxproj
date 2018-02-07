@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEB541633A3DD571879B0969 /* libPods-AccumulateOverALongPeriod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */; };
 		DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */; };
 		DF2E0EEC202AA1B900FD90C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EEB202AA1B900FD90C6 /* ViewController.m */; };
 		DF2E0EEF202AA1B900FD90C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EED202AA1B900FD90C6 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccumulateOverALongPeriod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738A548AD6311472708D64F9 /* Pods-AccumulateOverALongPeriod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.release.xcconfig"; sourceTree = "<group>"; };
 		DF2E0EE4202AA1B900FD90C6 /* AccumulateOverALongPeriod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccumulateOverALongPeriod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2E0EE7202AA1B900FD90C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		DF2E0EF3202AA1B900FD90C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2E0EF5202AA1B900FD90C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2E0EF6202AA1B900FD90C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB541633A3DD571879B0969 /* libPods-AccumulateOverALongPeriod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4039791ECF7C766B664D69DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF2E0EDB202AA1B900FD90C6 = {
 			isa = PBXGroup;
 			children = (
 				DF2E0EE6202AA1B900FD90C6 /* AccumulateOverALongPeriod */,
 				DF2E0EE5202AA1B900FD90C6 /* Products */,
+				DF95C3CD924A4131263A476C /* Pods */,
+				4039791ECF7C766B664D69DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,15 @@
 			path = AccumulateOverALongPeriod;
 			sourceTree = "<group>";
 		};
+		DF95C3CD924A4131263A476C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */,
+				738A548AD6311472708D64F9 /* Pods-AccumulateOverALongPeriod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF2E0EFA202AA1B900FD90C6 /* Build configuration list for PBXNativeTarget "AccumulateOverALongPeriod" */;
 			buildPhases = (
+				E45827B646FACE550D334F68 /* [CP] Check Pods Manifest.lock */,
 				DF2E0EE0202AA1B900FD90C6 /* Sources */,
 				DF2E0EE1202AA1B900FD90C6 /* Frameworks */,
 				DF2E0EE2202AA1B900FD90C6 /* Resources */,
+				92ECD408BD280FA31410E735 /* [CP] Embed Pods Frameworks */,
+				6F48209EBF5B8CBD45A0008F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F48209EBF5B8CBD45A0008F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92ECD408BD280FA31410E735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45827B646FACE550D334F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccumulateOverALongPeriod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF2E0EE0202AA1B900FD90C6 /* Sources */ = {
@@ -276,6 +360,7 @@
 		};
 		DF2E0EFB202AA1B900FD90C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +374,7 @@
 		};
 		DF2E0EFC202AA1B900FD90C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738A548AD6311472708D64F9 /* Pods-AccumulateOverALongPeriod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
