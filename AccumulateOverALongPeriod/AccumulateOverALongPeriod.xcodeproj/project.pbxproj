@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		AEB541633A3DD571879B0969 /* libPods-AccumulateOverALongPeriod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */; };
 		DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */; };
-		DF2E0EEC202AA1B900FD90C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EEB202AA1B900FD90C6 /* ViewController.m */; };
-		DF2E0EEF202AA1B900FD90C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EED202AA1B900FD90C6 /* Main.storyboard */; };
 		DF2E0EF1202AA1B900FD90C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF0202AA1B900FD90C6 /* Assets.xcassets */; };
 		DF2E0EF4202AA1B900FD90C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF2202AA1B900FD90C6 /* LaunchScreen.storyboard */; };
 		DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EF6202AA1B900FD90C6 /* main.m */; };
+		DF788046202ADE250026202A /* Constanct.m in Sources */ = {isa = PBXBuildFile; fileRef = DF788045202ADE250026202A /* Constanct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +21,12 @@
 		DF2E0EE4202AA1B900FD90C6 /* AccumulateOverALongPeriod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccumulateOverALongPeriod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2E0EE7202AA1B900FD90C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF2E0EEA202AA1B900FD90C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF2E0EEB202AA1B900FD90C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF2E0EEE202AA1B900FD90C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF2E0EF0202AA1B900FD90C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF2E0EF3202AA1B900FD90C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2E0EF5202AA1B900FD90C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2E0EF6202AA1B900FD90C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF788044202ADE250026202A /* Constanct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constanct.h; sourceTree = "<group>"; };
+		DF788045202ADE250026202A /* Constanct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constanct.m; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,17 +71,48 @@
 		DF2E0EE6202AA1B900FD90C6 /* AccumulateOverALongPeriod */ = {
 			isa = PBXGroup;
 			children = (
-				DF2E0EE7202AA1B900FD90C6 /* AppDelegate.h */,
-				DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */,
-				DF2E0EEA202AA1B900FD90C6 /* ViewController.h */,
-				DF2E0EEB202AA1B900FD90C6 /* ViewController.m */,
-				DF2E0EED202AA1B900FD90C6 /* Main.storyboard */,
+				DF788040202AD84A0026202A /* Main */,
+				DF78803F202AD7020026202A /* Resource */,
+			);
+			path = AccumulateOverALongPeriod;
+			sourceTree = "<group>";
+		};
+		DF78803F202AD7020026202A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				DF2E0EF0202AA1B900FD90C6 /* Assets.xcassets */,
 				DF2E0EF2202AA1B900FD90C6 /* LaunchScreen.storyboard */,
 				DF2E0EF5202AA1B900FD90C6 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DF788040202AD84A0026202A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DF788042202AD9960026202A /* Macro */,
+				DF788041202AD8580026202A /* APPDelegate */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DF788041202AD8580026202A /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF2E0EE7202AA1B900FD90C6 /* AppDelegate.h */,
+				DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */,
 				DF2E0EF6202AA1B900FD90C6 /* main.m */,
 			);
-			path = AccumulateOverALongPeriod;
+			path = APPDelegate;
+			sourceTree = "<group>";
+		};
+		DF788042202AD9960026202A /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DF788044202ADE250026202A /* Constanct.h */,
+				DF788045202ADE250026202A /* Constanct.m */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		DF95C3CD924A4131263A476C /* Pods */ = {
@@ -158,7 +187,6 @@
 			files = (
 				DF2E0EF4202AA1B900FD90C6 /* LaunchScreen.storyboard in Resources */,
 				DF2E0EF1202AA1B900FD90C6 /* Assets.xcassets in Resources */,
-				DF2E0EEF202AA1B900FD90C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2E0EEC202AA1B900FD90C6 /* ViewController.m in Sources */,
+				DF788046202ADE250026202A /* Constanct.m in Sources */,
 				DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */,
 				DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */,
 			);
@@ -235,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF2E0EED202AA1B900FD90C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF2E0EEE202AA1B900FD90C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF2E0EF2202AA1B900FD90C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,7 +384,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AccumulateOverALongPeriod/Info.plist;
+				DEVELOPMENT_TEAM = LHVTQU6K86;
+				INFOPLIST_FILE = "$(SRCROOT)/AccumulateOverALongPeriod/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangqicai.AccumulateOverALongPeriod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,7 +400,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AccumulateOverALongPeriod/Info.plist;
+				DEVELOPMENT_TEAM = LHVTQU6K86;
+				INFOPLIST_FILE = "$(SRCROOT)/AccumulateOverALongPeriod/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangqicai.AccumulateOverALongPeriod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
