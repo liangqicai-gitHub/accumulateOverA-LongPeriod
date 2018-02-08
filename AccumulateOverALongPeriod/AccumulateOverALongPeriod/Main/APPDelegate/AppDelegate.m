@@ -8,24 +8,29 @@
 
 #import "AppDelegate.h"
 
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
- 
+    [self initRootViewController];
     return YES;
 }
-
 
 
 - (void)initRootViewController{
     if (!self.window){
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     }
+    self.window.backgroundColor = ConstColorWhite;
+    [self.window makeKeyAndVisible];
+    
+    UIViewController *root = [[UIViewController alloc] init];
+    root.view.backgroundColor = ConstColorWhite;
+    self.window.rootViewController = root;
 }
 
 

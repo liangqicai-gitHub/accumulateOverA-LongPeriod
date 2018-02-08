@@ -10,10 +10,39 @@
 
 NSString *const ConstNoti = @"constNoti";
 
-
-
-
 @implementation Constanct
+
+
++ (instancetype)sharedConstant{
+    static Constanct *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[Constanct alloc] init];
+    });
+    return instance;
+}
+
+
+- (instancetype)init{
+    self = [super init];
+    if (self){
+        [self initVars];
+    }
+    return self;
+}
+
+
+- (void)initVars{
+    
+    _deviceScale = [UIScreen mainScreen].scale;
+    _onePix = 1.0 / (double)_deviceScale;
+    CGSize deviceScreen = [UIScreen mainScreen].bounds.size;
+    _deviceWidth = MIN(deviceScreen.height, deviceScreen.width);
+    _deviceHeight = MAX(deviceScreen.height, deviceScreen.width);
+    
+    _colorClear = [UIColor clearColor];
+    _colorWhite = [UIColor whiteColor];
+}
 
 
 

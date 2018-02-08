@@ -27,6 +27,7 @@
 		DF2E0EF6202AA1B900FD90C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF788044202ADE250026202A /* Constanct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constanct.h; sourceTree = "<group>"; };
 		DF788045202ADE250026202A /* Constanct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constanct.m; sourceTree = "<group>"; };
+		DF8A2455202AF4E4008ADE9C /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +110,7 @@
 		DF788042202AD9960026202A /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				DF8A2455202AF4E4008ADE9C /* PCH.pch */,
 				DF788044202ADE250026202A /* Constanct.h */,
 				DF788045202ADE250026202A /* Constanct.m */,
 			);
@@ -385,6 +387,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LHVTQU6K86;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccumulateOverALongPeriod/Main/Macro/PCH.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AccumulateOverALongPeriod/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -401,6 +406,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LHVTQU6K86;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccumulateOverALongPeriod/Main/Macro/PCH.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AccumulateOverALongPeriod/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
