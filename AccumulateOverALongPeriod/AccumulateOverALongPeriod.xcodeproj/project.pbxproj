@@ -28,6 +28,8 @@
 		DFD44C45202C450800F77EE1 /* UILabel+Convenient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C44202C450800F77EE1 /* UILabel+Convenient.m */; };
 		DFD44C48202C457900F77EE1 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C47202C457800F77EE1 /* UIView+Border.m */; };
 		DFD44C4C202C4BBF00F77EE1 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */; };
+		DFD44C57202C517600F77EE1 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C56202C517600F77EE1 /* HomePageViewController.m */; };
+		DFD44C5B202C531800F77EE1 /* RDDIYBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C5A202C531800F77EE1 /* RDDIYBottomBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,10 @@
 		DFD44C47202C457800F77EE1 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
 		DFD44C4A202C4BBF00F77EE1 /* UIImage+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
 		DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
+		DFD44C55202C517600F77EE1 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		DFD44C56202C517600F77EE1 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		DFD44C59202C531800F77EE1 /* RDDIYBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDIYBottomBar.h; sourceTree = "<group>"; };
+		DFD44C5A202C531800F77EE1 /* RDDIYBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDIYBottomBar.m; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +127,7 @@
 				DFD44C16202C34E600F77EE1 /* Category */,
 				DFD44C10202C31BC00F77EE1 /* Base */,
 				DF788040202AD84A0026202A /* Main */,
+				DFD44C4E202C50DD00F77EE1 /* Features */,
 				DF78803F202AD7020026202A /* Resource */,
 			);
 			path = AccumulateOverALongPeriod;
@@ -241,6 +248,8 @@
 			children = (
 				DFD44C22202C373A00F77EE1 /* UIViewController+LayoutGuide.h */,
 				DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */,
+				DFD44C35202C42B600F77EE1 /* UIViewController+DIYNavigationBar.h */,
+				DFD44C36202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -275,8 +284,6 @@
 		DFD44C31202C405500F77EE1 /* FirstPageController */ = {
 			isa = PBXGroup;
 			children = (
-				DFD44C35202C42B600F77EE1 /* UIViewController+DIYNavigationBar.h */,
-				DFD44C36202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m */,
 				DFD44C32202C40B800F77EE1 /* FirstPageController.h */,
 				DFD44C33202C40B800F77EE1 /* FirstPageController.m */,
 			);
@@ -286,6 +293,7 @@
 		DFD44C39202C432D00F77EE1 /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C58202C52F200F77EE1 /* DiyBottomBar */,
 				DFD44C3A202C433700F77EE1 /* DiyNavigationBar */,
 			);
 			path = CommonView;
@@ -327,6 +335,40 @@
 				DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		DFD44C4E202C50DD00F77EE1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C4F202C511500F77EE1 /* HomePage */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DFD44C4F202C511500F77EE1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C50202C513D00F77EE1 /* Controller */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		DFD44C50202C513D00F77EE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C55202C517600F77EE1 /* HomePageViewController.h */,
+				DFD44C56202C517600F77EE1 /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFD44C58202C52F200F77EE1 /* DiyBottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C59202C531800F77EE1 /* RDDIYBottomBar.h */,
+				DFD44C5A202C531800F77EE1 /* RDDIYBottomBar.m */,
+			);
+			path = DiyBottomBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,9 +502,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD44C37202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m in Sources */,
+				DFD44C5B202C531800F77EE1 /* RDDIYBottomBar.m in Sources */,
 				DFD44C4C202C4BBF00F77EE1 /* UIImage+Gradient.m in Sources */,
 				DFD44C45202C450800F77EE1 /* UILabel+Convenient.m in Sources */,
 				DFD44C48202C457900F77EE1 /* UIView+Border.m in Sources */,
+				DFD44C57202C517600F77EE1 /* HomePageViewController.m in Sources */,
 				DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */,
 				DFD44C41202C43B600F77EE1 /* UIView+SeparateLine.m in Sources */,
 				DF788046202ADE250026202A /* Constanct.m in Sources */,

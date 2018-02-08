@@ -7,6 +7,8 @@
 //
 
 #import "RootViewController.h"
+#import "BaseNavigationController.h"
+#import "HomePageViewController.h"
 
 @interface RootViewController ()
 
@@ -19,6 +21,15 @@
     self.view.backgroundColor = ConstColorWhite;
     self.tabBar.translucent = YES;
     self.tabBar.hidden = YES;
+    [self baseInitControllers];
+}
+
+
+- (void)baseInitControllers{
+    //Home
+    HomePageViewController *home = [[HomePageViewController alloc] init];
+    BaseNavigationController *homeNavigation = [[BaseNavigationController alloc] initWithRootViewController:home];
+    [self setViewControllers:@[homeNavigation] animated:NO];
 }
 
 

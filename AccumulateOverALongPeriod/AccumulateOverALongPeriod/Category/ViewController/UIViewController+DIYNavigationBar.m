@@ -15,7 +15,6 @@
 - (void)diyNavigation_addTopBar
 {
     DIYNavigationBar *bar = [[DIYNavigationBar alloc] init];
-    bar.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.9];
     self.diyNavigation_topBar = bar;
     [self.view addSubview:bar];
     [bar mas_makeConstraints:^(MASConstraintMaker *make) {
