@@ -13,6 +13,7 @@
 		DF2E0EF4202AA1B900FD90C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF2202AA1B900FD90C6 /* LaunchScreen.storyboard */; };
 		DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EF6202AA1B900FD90C6 /* main.m */; };
 		DF788046202ADE250026202A /* Constanct.m in Sources */ = {isa = PBXBuildFile; fileRef = DF788045202ADE250026202A /* Constanct.m */; };
+		DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C0E202C302C00F77EE1 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		DF788044202ADE250026202A /* Constanct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constanct.h; sourceTree = "<group>"; };
 		DF788045202ADE250026202A /* Constanct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constanct.m; sourceTree = "<group>"; };
 		DF8A2455202AF4E4008ADE9C /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
+		DFD44C0D202C302C00F77EE1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DFD44C0E202C302C00F77EE1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,8 +94,9 @@
 		DF788040202AD84A0026202A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				DF788042202AD9960026202A /* Macro */,
 				DF788041202AD8580026202A /* APPDelegate */,
+				DFD44C0C202C2FD400F77EE1 /* RootViewController */,
+				DF788042202AD9960026202A /* Macro */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -124,6 +128,15 @@
 				738A548AD6311472708D64F9 /* Pods-AccumulateOverALongPeriod.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFD44C0C202C2FD400F77EE1 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C0D202C302C00F77EE1 /* RootViewController.h */,
+				DFD44C0E202C302C00F77EE1 /* RootViewController.m */,
+			);
+			path = RootViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +271,7 @@
 			files = (
 				DF788046202ADE250026202A /* Constanct.m in Sources */,
 				DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */,
+				DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */,
 				DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
