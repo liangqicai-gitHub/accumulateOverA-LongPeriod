@@ -19,6 +19,7 @@
 		DFD44C20202C36A900F77EE1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C1F202C36A900F77EE1 /* BaseViewController.m */; };
 		DFD44C24202C373A00F77EE1 /* UIViewController+LayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */; };
 		DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */; };
+		DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LayoutGuide.m"; sourceTree = "<group>"; };
 		DFD44C26202C386F00F77EE1 /* UIColor+Usual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Usual.h"; sourceTree = "<group>"; };
 		DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Usual.m"; sourceTree = "<group>"; };
+		DFD44C2A202C39C200F77EE1 /* NSString+Usual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Usual.h"; sourceTree = "<group>"; };
+		DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Usual.m"; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +189,7 @@
 		DFD44C16202C34E600F77EE1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C29202C399A00F77EE1 /* NSString */,
 				DFD44C25202C386000F77EE1 /* UIColor */,
 				DFD44C21202C371B00F77EE1 /* ViewController */,
 				DFD44C17202C34F600F77EE1 /* NSArray */,
@@ -218,6 +222,15 @@
 				DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		DFD44C29202C399A00F77EE1 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C2A202C39C200F77EE1 /* NSString+Usual.h */,
+				DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */,
 				DF788046202ADE250026202A /* Constanct.m in Sources */,
 				DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */,
 				DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */,
