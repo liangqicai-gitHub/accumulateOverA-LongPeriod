@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+LayoutGuide.h"
+#import "UIViewController+DIYNavigationBar.h"
 
 @interface BaseViewController : UIViewController
 

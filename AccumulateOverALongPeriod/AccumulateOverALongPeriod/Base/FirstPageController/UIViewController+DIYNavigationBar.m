@@ -21,16 +21,13 @@
     [bar mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(0);
         make.right.left.mas_equalTo(0);
-        make.bottom.mas_equalTo(self.lqc_topLayoutGuide).offset(44.0 + ONEPX);
+        make.bottom.mas_equalTo(self.lqc_topLayoutGuide).offset(44.0);
     }];
 }
 
 
 
-
-
 #pragma mark - setter and getter
-
 
 static char *const diyNavigation_topBar_key = "diyNavigation_topBar_key";
 

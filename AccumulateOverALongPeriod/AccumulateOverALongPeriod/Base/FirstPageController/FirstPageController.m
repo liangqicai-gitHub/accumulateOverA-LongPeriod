@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.diyNavigation_topBar.backBtn removeFromSuperview];
 }
 
 
