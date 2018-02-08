@@ -14,6 +14,11 @@
 		DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EF6202AA1B900FD90C6 /* main.m */; };
 		DF788046202ADE250026202A /* Constanct.m in Sources */ = {isa = PBXBuildFile; fileRef = DF788045202ADE250026202A /* Constanct.m */; };
 		DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C0E202C302C00F77EE1 /* RootViewController.m */; };
+		DFD44C15202C33F600F77EE1 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C14202C33F600F77EE1 /* BaseNavigationController.m */; };
+		DFD44C1D202C362200F77EE1 /* NSArray+Usual.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C1B202C362200F77EE1 /* NSArray+Usual.m */; };
+		DFD44C20202C36A900F77EE1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C1F202C36A900F77EE1 /* BaseViewController.m */; };
+		DFD44C24202C373A00F77EE1 /* UIViewController+LayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */; };
+		DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,16 @@
 		DF8A2455202AF4E4008ADE9C /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
 		DFD44C0D202C302C00F77EE1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DFD44C0E202C302C00F77EE1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DFD44C13202C33F600F77EE1 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		DFD44C14202C33F600F77EE1 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		DFD44C1B202C362200F77EE1 /* NSArray+Usual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Usual.m"; sourceTree = "<group>"; };
+		DFD44C1C202C362200F77EE1 /* NSArray+Usual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Usual.h"; sourceTree = "<group>"; };
+		DFD44C1E202C36A800F77EE1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DFD44C1F202C36A900F77EE1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DFD44C22202C373A00F77EE1 /* UIViewController+LayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LayoutGuide.h"; sourceTree = "<group>"; };
+		DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LayoutGuide.m"; sourceTree = "<group>"; };
+		DFD44C26202C386F00F77EE1 /* UIColor+Usual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Usual.h"; sourceTree = "<group>"; };
+		DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Usual.m"; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +90,7 @@
 		DF2E0EE6202AA1B900FD90C6 /* AccumulateOverALongPeriod */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C16202C34E600F77EE1 /* Category */,
 				DFD44C10202C31BC00F77EE1 /* Base */,
 				DF788040202AD84A0026202A /* Main */,
 				DF78803F202AD7020026202A /* Resource */,
@@ -152,6 +168,8 @@
 		DFD44C11202C322D00F77EE1 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C1E202C36A800F77EE1 /* BaseViewController.h */,
+				DFD44C1F202C36A900F77EE1 /* BaseViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -159,8 +177,47 @@
 		DFD44C12202C324500F77EE1 /* BaseNavigationViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C13202C33F600F77EE1 /* BaseNavigationController.h */,
+				DFD44C14202C33F600F77EE1 /* BaseNavigationController.m */,
 			);
 			path = BaseNavigationViewController;
+			sourceTree = "<group>";
+		};
+		DFD44C16202C34E600F77EE1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C25202C386000F77EE1 /* UIColor */,
+				DFD44C21202C371B00F77EE1 /* ViewController */,
+				DFD44C17202C34F600F77EE1 /* NSArray */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DFD44C17202C34F600F77EE1 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C1C202C362200F77EE1 /* NSArray+Usual.h */,
+				DFD44C1B202C362200F77EE1 /* NSArray+Usual.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		DFD44C21202C371B00F77EE1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C22202C373A00F77EE1 /* UIViewController+LayoutGuide.h */,
+				DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DFD44C25202C386000F77EE1 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C26202C386F00F77EE1 /* UIColor+Usual.h */,
+				DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +353,12 @@
 				DF788046202ADE250026202A /* Constanct.m in Sources */,
 				DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */,
 				DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */,
+				DFD44C1D202C362200F77EE1 /* NSArray+Usual.m in Sources */,
 				DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */,
+				DFD44C24202C373A00F77EE1 /* UIViewController+LayoutGuide.m in Sources */,
+				DFD44C20202C36A900F77EE1 /* BaseViewController.m in Sources */,
+				DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */,
+				DFD44C15202C33F600F77EE1 /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
