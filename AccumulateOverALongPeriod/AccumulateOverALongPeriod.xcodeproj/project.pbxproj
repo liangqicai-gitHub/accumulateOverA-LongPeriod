@@ -143,8 +143,24 @@
 		DFD44C10202C31BC00F77EE1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C12202C324500F77EE1 /* BaseNavigationViewController */,
+				DFD44C11202C322D00F77EE1 /* BaseViewController */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		DFD44C11202C322D00F77EE1 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		DFD44C12202C324500F77EE1 /* BaseNavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseNavigationViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
