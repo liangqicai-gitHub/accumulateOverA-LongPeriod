@@ -75,6 +75,7 @@
 		DF2E0EE6202AA1B900FD90C6 /* AccumulateOverALongPeriod */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C10202C31BC00F77EE1 /* Base */,
 				DF788040202AD84A0026202A /* Main */,
 				DF78803F202AD7020026202A /* Resource */,
 			);
@@ -137,6 +138,13 @@
 				DFD44C0E202C302C00F77EE1 /* RootViewController.m */,
 			);
 			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		DFD44C10202C31BC00F77EE1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
