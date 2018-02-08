@@ -30,6 +30,7 @@
 		DFD44C4C202C4BBF00F77EE1 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */; };
 		DFD44C57202C517600F77EE1 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C56202C517600F77EE1 /* HomePageViewController.m */; };
 		DFD44C5B202C531800F77EE1 /* RDDIYBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C5A202C531800F77EE1 /* RDDIYBottomBar.m */; };
+		DFD44C5F202C53F600F77EE1 /* FirstPageTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C5E202C53F600F77EE1 /* FirstPageTabbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,8 @@
 		DFD44C56202C517600F77EE1 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		DFD44C59202C531800F77EE1 /* RDDIYBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDIYBottomBar.h; sourceTree = "<group>"; };
 		DFD44C5A202C531800F77EE1 /* RDDIYBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDIYBottomBar.m; sourceTree = "<group>"; };
+		DFD44C5D202C53F600F77EE1 /* FirstPageTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPageTabbar.h; sourceTree = "<group>"; };
+		DFD44C5E202C53F600F77EE1 /* FirstPageTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageTabbar.m; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -286,6 +289,8 @@
 			children = (
 				DFD44C32202C40B800F77EE1 /* FirstPageController.h */,
 				DFD44C33202C40B800F77EE1 /* FirstPageController.m */,
+				DFD44C5D202C53F600F77EE1 /* FirstPageTabbar.h */,
+				DFD44C5E202C53F600F77EE1 /* FirstPageTabbar.m */,
 			);
 			path = FirstPageController;
 			sourceTree = "<group>";
@@ -519,6 +524,7 @@
 				DFD44C30202C3E1900F77EE1 /* BaseTabBarController.m in Sources */,
 				DFD44C34202C40B800F77EE1 /* FirstPageController.m in Sources */,
 				DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */,
+				DFD44C5F202C53F600F77EE1 /* FirstPageTabbar.m in Sources */,
 				DFD44C3D202C437000F77EE1 /* DIYNavigationBar.m in Sources */,
 				DFD44C15202C33F600F77EE1 /* BaseNavigationController.m in Sources */,
 			);
