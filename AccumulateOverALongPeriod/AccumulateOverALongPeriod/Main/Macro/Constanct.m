@@ -42,6 +42,7 @@ NSString *const ConstNoti = @"constNoti";
     
     _colorClear = [UIColor clearColor];
     _colorWhite = [UIColor whiteColor];
+    _colorBlack = [UIColor blackColor];
 }
 
 

@@ -18,7 +18,15 @@
 #import "NSArray+Usual.h"
 #import "UIColor+Usual.h"
 #import "NSString+Usual.h"
+#import "UIView+SeparateLine.h"
+#import "UIView+Border.h"
+#import "UILabel+Convenient.h"
 
+
+//一些宏
+#define KImg(a) [UIImage imageNamed:a]
+#define KSDImage(a,b) [a sd_setImageWithURL:[NSURL URLWithString:[NSString newString:b]]];
+#define KSDImageRetry(a,b) [a sd_setImageWithURL:[NSURL URLWithString:[NSString newString:b]] placeholderImage:nil options:SDWebImageRetryFailed];
 
 
 #endif

@@ -20,6 +20,14 @@
 		DFD44C24202C373A00F77EE1 /* UIViewController+LayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C23202C373A00F77EE1 /* UIViewController+LayoutGuide.m */; };
 		DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */; };
 		DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */; };
+		DFD44C30202C3E1900F77EE1 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C2F202C3E1900F77EE1 /* BaseTabBarController.m */; };
+		DFD44C34202C40B800F77EE1 /* FirstPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C33202C40B800F77EE1 /* FirstPageController.m */; };
+		DFD44C37202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C36202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m */; };
+		DFD44C3D202C437000F77EE1 /* DIYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C3B202C437000F77EE1 /* DIYNavigationBar.m */; };
+		DFD44C41202C43B600F77EE1 /* UIView+SeparateLine.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C40202C43B600F77EE1 /* UIView+SeparateLine.m */; };
+		DFD44C45202C450800F77EE1 /* UILabel+Convenient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C44202C450800F77EE1 /* UILabel+Convenient.m */; };
+		DFD44C48202C457900F77EE1 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C47202C457800F77EE1 /* UIView+Border.m */; };
+		DFD44C4C202C4BBF00F77EE1 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +57,22 @@
 		DFD44C27202C386F00F77EE1 /* UIColor+Usual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Usual.m"; sourceTree = "<group>"; };
 		DFD44C2A202C39C200F77EE1 /* NSString+Usual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Usual.h"; sourceTree = "<group>"; };
 		DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Usual.m"; sourceTree = "<group>"; };
+		DFD44C2E202C3E1900F77EE1 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		DFD44C2F202C3E1900F77EE1 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		DFD44C32202C40B800F77EE1 /* FirstPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPageController.h; sourceTree = "<group>"; };
+		DFD44C33202C40B800F77EE1 /* FirstPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageController.m; sourceTree = "<group>"; };
+		DFD44C35202C42B600F77EE1 /* UIViewController+DIYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DIYNavigationBar.h"; sourceTree = "<group>"; };
+		DFD44C36202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DIYNavigationBar.m"; sourceTree = "<group>"; };
+		DFD44C3B202C437000F77EE1 /* DIYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYNavigationBar.m; sourceTree = "<group>"; };
+		DFD44C3C202C437000F77EE1 /* DIYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYNavigationBar.h; sourceTree = "<group>"; };
+		DFD44C3F202C43B600F77EE1 /* UIView+SeparateLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SeparateLine.h"; sourceTree = "<group>"; };
+		DFD44C40202C43B600F77EE1 /* UIView+SeparateLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SeparateLine.m"; sourceTree = "<group>"; };
+		DFD44C43202C450800F77EE1 /* UILabel+Convenient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Convenient.h"; sourceTree = "<group>"; };
+		DFD44C44202C450800F77EE1 /* UILabel+Convenient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Convenient.m"; sourceTree = "<group>"; };
+		DFD44C46202C457800F77EE1 /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
+		DFD44C47202C457800F77EE1 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
+		DFD44C4A202C4BBF00F77EE1 /* UIImage+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
+		DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +117,7 @@
 		DF2E0EE6202AA1B900FD90C6 /* AccumulateOverALongPeriod */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C39202C432D00F77EE1 /* CommonView */,
 				DFD44C16202C34E600F77EE1 /* Category */,
 				DFD44C10202C31BC00F77EE1 /* Base */,
 				DF788040202AD84A0026202A /* Main */,
@@ -162,8 +187,10 @@
 		DFD44C10202C31BC00F77EE1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C2D202C3DE400F77EE1 /* BaseTabBarController */,
 				DFD44C12202C324500F77EE1 /* BaseNavigationViewController */,
 				DFD44C11202C322D00F77EE1 /* BaseViewController */,
+				DFD44C31202C405500F77EE1 /* FirstPageController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -189,6 +216,9 @@
 		DFD44C16202C34E600F77EE1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DFD44C49202C4B6200F77EE1 /* UIImage */,
+				DFD44C42202C44F900F77EE1 /* UILabel */,
+				DFD44C3E202C43A400F77EE1 /* View */,
 				DFD44C29202C399A00F77EE1 /* NSString */,
 				DFD44C25202C386000F77EE1 /* UIColor */,
 				DFD44C21202C371B00F77EE1 /* ViewController */,
@@ -231,6 +261,72 @@
 				DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		DFD44C2D202C3DE400F77EE1 /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C2E202C3E1900F77EE1 /* BaseTabBarController.h */,
+				DFD44C2F202C3E1900F77EE1 /* BaseTabBarController.m */,
+			);
+			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+		DFD44C31202C405500F77EE1 /* FirstPageController */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C35202C42B600F77EE1 /* UIViewController+DIYNavigationBar.h */,
+				DFD44C36202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m */,
+				DFD44C32202C40B800F77EE1 /* FirstPageController.h */,
+				DFD44C33202C40B800F77EE1 /* FirstPageController.m */,
+			);
+			path = FirstPageController;
+			sourceTree = "<group>";
+		};
+		DFD44C39202C432D00F77EE1 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C3A202C433700F77EE1 /* DiyNavigationBar */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		DFD44C3A202C433700F77EE1 /* DiyNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C3C202C437000F77EE1 /* DIYNavigationBar.h */,
+				DFD44C3B202C437000F77EE1 /* DIYNavigationBar.m */,
+			);
+			path = DiyNavigationBar;
+			sourceTree = "<group>";
+		};
+		DFD44C3E202C43A400F77EE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C46202C457800F77EE1 /* UIView+Border.h */,
+				DFD44C47202C457800F77EE1 /* UIView+Border.m */,
+				DFD44C3F202C43B600F77EE1 /* UIView+SeparateLine.h */,
+				DFD44C40202C43B600F77EE1 /* UIView+SeparateLine.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFD44C42202C44F900F77EE1 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C43202C450800F77EE1 /* UILabel+Convenient.h */,
+				DFD44C44202C450800F77EE1 /* UILabel+Convenient.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		DFD44C49202C4B6200F77EE1 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				DFD44C4A202C4BBF00F77EE1 /* UIImage+Gradient.h */,
+				DFD44C4B202C4BBF00F77EE1 /* UIImage+Gradient.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +459,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD44C37202C42B600F77EE1 /* UIViewController+DIYNavigationBar.m in Sources */,
+				DFD44C4C202C4BBF00F77EE1 /* UIImage+Gradient.m in Sources */,
+				DFD44C45202C450800F77EE1 /* UILabel+Convenient.m in Sources */,
+				DFD44C48202C457900F77EE1 /* UIView+Border.m in Sources */,
 				DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */,
+				DFD44C41202C43B600F77EE1 /* UIView+SeparateLine.m in Sources */,
 				DF788046202ADE250026202A /* Constanct.m in Sources */,
 				DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */,
 				DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */,
@@ -371,7 +472,10 @@
 				DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */,
 				DFD44C24202C373A00F77EE1 /* UIViewController+LayoutGuide.m in Sources */,
 				DFD44C20202C36A900F77EE1 /* BaseViewController.m in Sources */,
+				DFD44C30202C3E1900F77EE1 /* BaseTabBarController.m in Sources */,
+				DFD44C34202C40B800F77EE1 /* FirstPageController.m in Sources */,
 				DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */,
+				DFD44C3D202C437000F77EE1 /* DIYNavigationBar.m in Sources */,
 				DFD44C15202C33F600F77EE1 /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

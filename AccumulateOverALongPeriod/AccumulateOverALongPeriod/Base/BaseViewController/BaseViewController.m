@@ -30,4 +30,16 @@
     return YES;
 }
 
+
+
+- (void)setNeedsStatusBarAppearanceUpdate{
+    if (self.tabBarController){
+        [self.tabBarController setNeedsStatusBarAppearanceUpdate];
+    }else if (self.navigationController){
+        [self.navigationController setNeedsStatusBarAppearanceUpdate];
+    }else{
+        [super setNeedsStatusBarAppearanceUpdate];
+    }
+}
+
 @end

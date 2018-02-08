@@ -20,6 +20,7 @@ UIKIT_EXTERN NSString *const ConstNoti;
 //color
 #define ConstColorWhite [Constanct sharedConstant].colorWhite
 #define ConstColorClear [Constanct sharedConstant].colorClear
+#define ConstColorBlack [Constanct sharedConstant].colorBlack
 
 
 @interface Constanct : NSObject
@@ -35,6 +36,7 @@ UIKIT_EXTERN NSString *const ConstNoti;
 //colcor
 @property (readonly) UIColor *colorWhite;
 @property (readonly) UIColor *colorClear;
+@property (readonly) UIColor *colorBlack;
 
 
 @end

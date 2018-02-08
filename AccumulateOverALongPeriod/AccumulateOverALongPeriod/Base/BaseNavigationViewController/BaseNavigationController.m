@@ -24,6 +24,7 @@
 }
 
 
+#pragma mark - 滑动返回
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
     //是否是root，如果是，则返回NO
@@ -34,8 +35,41 @@
     UIViewController *top = self.topViewController;
     if (![top isKindOfClass:[BaseViewController class]]) return NO;
     return [(BaseViewController *)top canSlideBack];
-    
 }
 
+
+#pragma mark - 状态栏
+
+- (BOOL)prefersStatusBarHidden{
+    if (self.topViewController){
+        return self.topViewController.prefersStatusBarHidden;
+    }else{
+        return NO;
+    }
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    if (self.topViewController){
+        return self.topViewController.preferredStatusBarStyle;
+    }else{
+        return UIStatusBarStyleDefault;
+    }
+}
+
+- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation{
+    if (self.topViewController){
+        return self.topViewController.preferredStatusBarUpdateAnimation;
+    }else{
+        return UIStatusBarAnimationFade;
+    }
+}
+
+- (void)setNeedsStatusBarAppearanceUpdate{
+    if (self.tabBarController){
+        [self.tabBarController setNeedsStatusBarAppearanceUpdate];
+    }else{
+        [super setNeedsStatusBarAppearanceUpdate];
+    }
+}
 
 @end
