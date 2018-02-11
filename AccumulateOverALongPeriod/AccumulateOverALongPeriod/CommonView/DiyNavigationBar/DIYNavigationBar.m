@@ -26,7 +26,7 @@
 {
     self.contentView = [[UIView alloc] init];
     _backBtn = [[UIButton alloc] init];
-    [_backBtn setBackgroundImage:KImg(@"common-navigation-back") forState:UIControlStateNormal];
+    [_backBtn setImage:KImg(@"common-navigation-back") forState:UIControlStateNormal];
     [_backBtn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     _titleLabel = [UILabel labelWithTextColor:ConstColorBlack font:[UIFont boldSystemFontOfSize:17]];
 }

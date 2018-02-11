@@ -68,7 +68,9 @@
 }
 
 
-
+- (void)dealloc{
+    NSLog(@"%@ dealloc",[self class]);
+}
 
 
 

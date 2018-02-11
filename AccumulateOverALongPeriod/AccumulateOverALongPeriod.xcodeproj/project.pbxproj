@@ -10,6 +10,7 @@
 		AEB541633A3DD571879B0969 /* libPods-AccumulateOverALongPeriod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */; };
 		DF2BF89F2030234900BBB518 /* BusinessPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2BF89E2030234900BBB518 /* BusinessPage.m */; };
 		DF2BF8A3203023B700BBB518 /* SettingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2BF8A2203023B700BBB518 /* SettingPage.m */; };
+		DF2BF8A8203025FC00BBB518 /* PWDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2BF8A6203025FC00BBB518 /* PWDVC.m */; };
 		DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */; };
 		DF2E0EF1202AA1B900FD90C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF0202AA1B900FD90C6 /* Assets.xcassets */; };
 		DF2E0EF4202AA1B900FD90C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF2202AA1B900FD90C6 /* LaunchScreen.storyboard */; };
@@ -43,6 +44,8 @@
 		DF2BF89E2030234900BBB518 /* BusinessPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessPage.m; sourceTree = "<group>"; };
 		DF2BF8A1203023B700BBB518 /* SettingPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingPage.h; sourceTree = "<group>"; };
 		DF2BF8A2203023B700BBB518 /* SettingPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingPage.m; sourceTree = "<group>"; };
+		DF2BF8A6203025FC00BBB518 /* PWDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDVC.m; sourceTree = "<group>"; };
+		DF2BF8A7203025FC00BBB518 /* PWDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDVC.h; sourceTree = "<group>"; };
 		DF2E0EE4202AA1B900FD90C6 /* AccumulateOverALongPeriod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccumulateOverALongPeriod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2E0EE7202AA1B900FD90C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF2E0EE8202AA1B900FD90C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +133,15 @@
 				DF2BF8A2203023B700BBB518 /* SettingPage.m */,
 			);
 			path = SettingPage;
+			sourceTree = "<group>";
+		};
+		DF2BF8A42030258000BBB518 /* PasswordPage */ = {
+			isa = PBXGroup;
+			children = (
+				DF2BF8A7203025FC00BBB518 /* PWDVC.h */,
+				DF2BF8A6203025FC00BBB518 /* PWDVC.m */,
+			);
+			path = PasswordPage;
 			sourceTree = "<group>";
 		};
 		DF2E0EDB202AA1B900FD90C6 = {
@@ -377,6 +389,7 @@
 				DFD44C4F202C511500F77EE1 /* HomePage */,
 				DF2BF89C203022C700BBB518 /* BusinessPage */,
 				DF2BF8A02030239600BBB518 /* SettingPage */,
+				DF2BF8A42030258000BBB518 /* PasswordPage */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -543,6 +556,7 @@
 				DFD44C45202C450800F77EE1 /* UILabel+Convenient.m in Sources */,
 				DFD44C48202C457900F77EE1 /* UIView+Border.m in Sources */,
 				DFD44C57202C517600F77EE1 /* HomePageViewController.m in Sources */,
+				DF2BF8A8203025FC00BBB518 /* PWDVC.m in Sources */,
 				DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */,
 				DFD44C41202C43B600F77EE1 /* UIView+SeparateLine.m in Sources */,
 				DF788046202ADE250026202A /* Constanct.m in Sources */,
