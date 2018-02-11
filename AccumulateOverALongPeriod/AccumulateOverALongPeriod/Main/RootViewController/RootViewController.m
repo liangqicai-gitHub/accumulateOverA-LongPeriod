@@ -9,6 +9,8 @@
 #import "RootViewController.h"
 #import "BaseNavigationController.h"
 #import "HomePageViewController.h"
+#import "BusinessPage.h"
+#import "SettingPage.h"
 
 @interface RootViewController ()
 
@@ -29,7 +31,14 @@
     //Home
     HomePageViewController *home = [[HomePageViewController alloc] init];
     BaseNavigationController *homeNavigation = [[BaseNavigationController alloc] initWithRootViewController:home];
-    [self setViewControllers:@[homeNavigation] animated:NO];
+    
+    BusinessPage *bpage = [[BusinessPage alloc] init];
+    BaseNavigationController *bpageNavigation = [[BaseNavigationController alloc] initWithRootViewController:bpage];
+    
+    SettingPage *spage = [[SettingPage alloc] init];
+    BaseNavigationController *spageNavigation = [[BaseNavigationController alloc] initWithRootViewController:spage];
+    
+    [self setViewControllers:@[homeNavigation,bpageNavigation,spageNavigation] animated:NO];
 }
 
 

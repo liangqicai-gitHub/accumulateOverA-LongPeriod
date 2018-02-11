@@ -10,4 +10,9 @@
 
 @interface FirstPageTabbar : RDDIYBottomBar
 
+@property (nonatomic,copy) void (^actionBlock)(FirstPageTabbar *view,NSInteger selectIndex);
+
+@property (readonly) NSInteger selectedIndex;//NSNotFound
+- (void)resetSelectedIndex:(NSInteger)index;
+
 @end

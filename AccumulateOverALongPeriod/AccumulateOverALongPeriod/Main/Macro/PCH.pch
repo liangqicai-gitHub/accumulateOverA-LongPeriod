@@ -24,6 +24,7 @@
 #import "UILabel+Convenient.h"
 
 
+
 //一些宏
 #define KImg(a) [UIImage imageNamed:a]
 #define KSDImage(a,b) [a sd_setImageWithURL:[NSURL URLWithString:[NSString newString:b]]];

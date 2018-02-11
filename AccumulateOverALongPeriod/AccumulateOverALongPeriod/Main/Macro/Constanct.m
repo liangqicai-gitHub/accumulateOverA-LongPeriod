@@ -43,6 +43,9 @@ NSString *const ConstNoti = @"constNoti";
     _colorClear = [UIColor clearColor];
     _colorWhite = [UIColor whiteColor];
     _colorBlack = [UIColor blackColor];
+    _colorOrange1 = HexRGB(0xff5722);
+    _colorOrange2 = HexRGB(0x795548);
+ 
 }
 
 

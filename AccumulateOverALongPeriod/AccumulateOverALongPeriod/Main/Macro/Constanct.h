@@ -21,6 +21,8 @@ UIKIT_EXTERN NSString *const ConstNoti;
 #define ConstColorWhite [Constanct sharedConstant].colorWhite
 #define ConstColorClear [Constanct sharedConstant].colorClear
 #define ConstColorBlack [Constanct sharedConstant].colorBlack
+#define ConstColorOrange1 [Constanct sharedConstant].colorOrange1
+#define ConstColorOrange2 [Constanct sharedConstant].colorOrange2
 
 
 @interface Constanct : NSObject
@@ -37,6 +39,8 @@ UIKIT_EXTERN NSString *const ConstNoti;
 @property (readonly) UIColor *colorWhite;
 @property (readonly) UIColor *colorClear;
 @property (readonly) UIColor *colorBlack;
+@property (readonly) UIColor *colorOrange1;
+@property (readonly) UIColor *colorOrange2;
 
 
 @end
