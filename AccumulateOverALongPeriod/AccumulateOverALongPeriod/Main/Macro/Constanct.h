@@ -24,7 +24,6 @@ UIKIT_EXTERN NSString *const ConstNoti;
 #define ConstColorOrange1 [Constanct sharedConstant].colorOrange1
 #define ConstColorOrange2 [Constanct sharedConstant].colorOrange2
 
-
 @interface Constanct : NSObject
 
 + (instancetype)sharedConstant;
