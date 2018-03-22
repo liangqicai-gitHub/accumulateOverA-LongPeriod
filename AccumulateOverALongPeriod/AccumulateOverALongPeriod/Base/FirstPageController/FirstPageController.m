@@ -12,7 +12,7 @@
 @interface FirstPageController ()
 
 
-@property (nonatomic,strong) FirstPageTabbar *diyTabbar;
+
 
 @end
 

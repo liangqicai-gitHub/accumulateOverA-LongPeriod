@@ -8,6 +8,9 @@
 
 #import "BaseViewController.h"
 
+@class FirstPageTabbar;
 @interface FirstPageController : BaseViewController
+
+@property (nonatomic,strong) FirstPageTabbar *diyTabbar;
 
 @end
