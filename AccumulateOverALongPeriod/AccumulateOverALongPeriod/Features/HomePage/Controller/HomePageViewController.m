@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIWebView *web = [[UIWebView alloc] init];
+    [self.view addSubview:web];
+    [web setFrame:self.view.bounds];
+    [web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
 }
 
 
