@@ -35,6 +35,7 @@
 		DFD44C5B202C531800F77EE1 /* RDDIYBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C5A202C531800F77EE1 /* RDDIYBottomBar.m */; };
 		DFD44C5F202C53F600F77EE1 /* FirstPageTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C5E202C53F600F77EE1 /* FirstPageTabbar.m */; };
 		DFFC1C97202FE43E008A035C /* FirstPageTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC1C96202FE43E008A035C /* FirstPageTabbarItem.m */; };
+		DFFDA0AD206395D7001AE762 /* LQCSDWebImageBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA0AC206395D7001AE762 /* LQCSDWebImageBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,8 @@
 		DFD44C5E202C53F600F77EE1 /* FirstPageTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageTabbar.m; sourceTree = "<group>"; };
 		DFFC1C95202FE43E008A035C /* FirstPageTabbarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPageTabbarItem.h; sourceTree = "<group>"; };
 		DFFC1C96202FE43E008A035C /* FirstPageTabbarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageTabbarItem.m; sourceTree = "<group>"; };
+		DFFDA0AB206395D7001AE762 /* LQCSDWebImageBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCSDWebImageBridge.h; sourceTree = "<group>"; };
+		DFFDA0AC206395D7001AE762 /* LQCSDWebImageBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCSDWebImageBridge.m; sourceTree = "<group>"; };
 		F37EDB1A951593EAB2943CC2 /* Pods-AccumulateOverALongPeriod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +168,7 @@
 		DF2E0EE6202AA1B900FD90C6 /* AccumulateOverALongPeriod */ = {
 			isa = PBXGroup;
 			children = (
+				DFFDA0A620639517001AE762 /* ThirdPartBridge */,
 				DFD44C39202C432D00F77EE1 /* CommonView */,
 				DFD44C16202C34E600F77EE1 /* Category */,
 				DFD44C10202C31BC00F77EE1 /* Base */,
@@ -420,6 +424,23 @@
 			path = DiyBottomBar;
 			sourceTree = "<group>";
 		};
+		DFFDA0A620639517001AE762 /* ThirdPartBridge */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA0A720639561001AE762 /* SDWebImage */,
+			);
+			path = ThirdPartBridge;
+			sourceTree = "<group>";
+		};
+		DFFDA0A720639561001AE762 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA0AB206395D7001AE762 /* LQCSDWebImageBridge.h */,
+				DFFDA0AC206395D7001AE762 /* LQCSDWebImageBridge.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -573,6 +594,7 @@
 				DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */,
 				DFD44C5F202C53F600F77EE1 /* FirstPageTabbar.m in Sources */,
 				DFD44C3D202C437000F77EE1 /* DIYNavigationBar.m in Sources */,
+				DFFDA0AD206395D7001AE762 /* LQCSDWebImageBridge.m in Sources */,
 				DFD44C15202C33F600F77EE1 /* BaseNavigationController.m in Sources */,
 				DF2BF89F2030234900BBB518 /* BusinessPage.m in Sources */,
 			);
