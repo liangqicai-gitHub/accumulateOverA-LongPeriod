@@ -15,6 +15,7 @@
 		DF2E0EF1202AA1B900FD90C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF0202AA1B900FD90C6 /* Assets.xcassets */; };
 		DF2E0EF4202AA1B900FD90C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2E0EF2202AA1B900FD90C6 /* LaunchScreen.storyboard */; };
 		DF2E0EF7202AA1B900FD90C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0EF6202AA1B900FD90C6 /* main.m */; };
+		DF5104822092FF130065D751 /* WebPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5104812092FF130065D751 /* WebPage.m */; };
 		DF788046202ADE250026202A /* Constanct.m in Sources */ = {isa = PBXBuildFile; fileRef = DF788045202ADE250026202A /* Constanct.m */; };
 		DFD44C0F202C302C00F77EE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C0E202C302C00F77EE1 /* RootViewController.m */; };
 		DFD44C15202C33F600F77EE1 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD44C14202C33F600F77EE1 /* BaseNavigationController.m */; };
@@ -54,6 +55,8 @@
 		DF2E0EF3202AA1B900FD90C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2E0EF5202AA1B900FD90C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2E0EF6202AA1B900FD90C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF5104802092FF130065D751 /* WebPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPage.h; sourceTree = "<group>"; };
+		DF5104812092FF130065D751 /* WebPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPage.m; sourceTree = "<group>"; };
 		DF788044202ADE250026202A /* Constanct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constanct.h; sourceTree = "<group>"; };
 		DF788045202ADE250026202A /* Constanct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constanct.m; sourceTree = "<group>"; };
 		DF8A2455202AF4E4008ADE9C /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
@@ -177,6 +180,15 @@
 				DF78803F202AD7020026202A /* Resource */,
 			);
 			path = AccumulateOverALongPeriod;
+			sourceTree = "<group>";
+		};
+		DF51047F2092FEEF0065D751 /* WebPage */ = {
+			isa = PBXGroup;
+			children = (
+				DF5104802092FF130065D751 /* WebPage.h */,
+				DF5104812092FF130065D751 /* WebPage.m */,
+			);
+			path = WebPage;
 			sourceTree = "<group>";
 		};
 		DF78803F202AD7020026202A /* Resource */ = {
@@ -394,6 +406,7 @@
 				DF2BF89C203022C700BBB518 /* BusinessPage */,
 				DF2BF8A02030239600BBB518 /* SettingPage */,
 				DF2BF8A42030258000BBB518 /* PasswordPage */,
+				DF51047F2092FEEF0065D751 /* WebPage */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -589,6 +602,7 @@
 				DF2E0EE9202AA1B900FD90C6 /* AppDelegate.m in Sources */,
 				DFD44C24202C373A00F77EE1 /* UIViewController+LayoutGuide.m in Sources */,
 				DFD44C20202C36A900F77EE1 /* BaseViewController.m in Sources */,
+				DF5104822092FF130065D751 /* WebPage.m in Sources */,
 				DFD44C30202C3E1900F77EE1 /* BaseTabBarController.m in Sources */,
 				DFD44C34202C40B800F77EE1 /* FirstPageController.m in Sources */,
 				DFD44C28202C386F00F77EE1 /* UIColor+Usual.m in Sources */,
@@ -729,7 +743,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AccumulateOverALongPeriod/Main/Macro/PCH.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AccumulateOverALongPeriod/Resource/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricedonate.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -748,7 +762,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AccumulateOverALongPeriod/Main/Macro/PCH.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AccumulateOverALongPeriod/Resource/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricedonate.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
