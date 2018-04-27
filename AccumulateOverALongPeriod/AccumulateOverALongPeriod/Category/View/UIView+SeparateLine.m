@@ -15,7 +15,6 @@
 #pragma mark - public
 
 - (void)drawTopLine:(CGFloat)left right:(CGFloat)right{
-    
     [self buildTopLine];
     UIView *topLine = [self sc_TopLine];
     [topLine mas_remakeConstraints:^(MASConstraintMaker *make) {

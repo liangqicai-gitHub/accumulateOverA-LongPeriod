@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+@class MASViewAttribute;
 @interface UIViewController (LayoutGuide)
 
 @property (readonly) MASViewAttribute *lqc_topLayoutGuide;
