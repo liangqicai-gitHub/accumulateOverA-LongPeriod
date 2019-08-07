@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0443804F22FA6BCA00B76A73 /* NSString+lqcRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443804D22FA6BC900B76A73 /* NSString+lqcRegular.m */; };
 		AEB541633A3DD571879B0969 /* libPods-AccumulateOverALongPeriod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */; };
 		DF2BF89F2030234900BBB518 /* BusinessPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2BF89E2030234900BBB518 /* BusinessPage.m */; };
 		DF2BF8A3203023B700BBB518 /* SettingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2BF8A2203023B700BBB518 /* SettingPage.m */; };
@@ -40,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0443804D22FA6BC900B76A73 /* NSString+lqcRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+lqcRegular.m"; sourceTree = "<group>"; };
+		0443804E22FA6BCA00B76A73 /* NSString+lqcRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+lqcRegular.h"; sourceTree = "<group>"; };
 		467BF0CACAAB215E118E5B74 /* libPods-AccumulateOverALongPeriod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccumulateOverALongPeriod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		738A548AD6311472708D64F9 /* Pods-AccumulateOverALongPeriod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccumulateOverALongPeriod.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccumulateOverALongPeriod/Pods-AccumulateOverALongPeriod.release.xcconfig"; sourceTree = "<group>"; };
 		DF2BF89D2030234900BBB518 /* BusinessPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessPage.h; sourceTree = "<group>"; };
@@ -326,6 +329,8 @@
 			children = (
 				DFD44C2A202C39C200F77EE1 /* NSString+Usual.h */,
 				DFD44C2B202C39C200F77EE1 /* NSString+Usual.m */,
+				0443804E22FA6BCA00B76A73 /* NSString+lqcRegular.h */,
+				0443804D22FA6BC900B76A73 /* NSString+lqcRegular.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -589,6 +594,7 @@
 				DFD44C4C202C4BBF00F77EE1 /* UIImage+Gradient.m in Sources */,
 				DFD44C45202C450800F77EE1 /* UILabel+Convenient.m in Sources */,
 				DFD44C48202C457900F77EE1 /* UIView+Border.m in Sources */,
+				0443804F22FA6BCA00B76A73 /* NSString+lqcRegular.m in Sources */,
 				DFD44C57202C517600F77EE1 /* HomePageViewController.m in Sources */,
 				DF2BF8A8203025FC00BBB518 /* PWDVC.m in Sources */,
 				DFD44C2C202C39C300F77EE1 /* NSString+Usual.m in Sources */,
